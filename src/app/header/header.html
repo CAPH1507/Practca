@@ -1,0 +1,11 @@
+<header class="header">
+  <input
+    class="buscador"
+    type="text"
+    placeholder="Buscador"
+    [(ngModel)]="textoBusqueda"
+    (keyup.enter)="buscar()"
+  />
+
+  <a class="boton-inicio" routerLink="/">Inicio</a>
+</header>

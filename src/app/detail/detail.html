@@ -1,0 +1,21 @@
+@if (item) {
+  <div class="contenido">
+    <div class="banner">
+      <div class="avatar"></div>
+      <div class="caja-texto">
+        <h1>{{ item.titulo }}</h1>
+        <p>{{ item.descripcionCorta }}</p>
+      </div>
+    </div>
+
+    <div class="descripcion">
+      <p>{{ item.descripcion1 }}</p>
+    </div>
+
+    <div class="descripcion">
+      <p>{{ item.descripcion2 }}</p>
+    </div>
+  </div>
+} @else {
+  <p class="no-encontrado">No se encontró el elemento.</p>
+}

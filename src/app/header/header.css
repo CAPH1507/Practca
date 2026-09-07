@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  background-color: #eef1f4;
+  border-bottom: 1px solid #d3d9e0;
+}
+
+.buscador {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #b9c2cc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.boton-inicio {
+  padding: 8px 20px;
+  background-color: #8b95a5;
+  color: #ffffff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.boton-inicio:hover {
+  background-color: #757f8f;
+}

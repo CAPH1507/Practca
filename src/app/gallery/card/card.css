@@ -1,0 +1,32 @@
+.tarjeta {
+  display: block;
+  background-color: #8b95a5;
+  border-radius: 4px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.imagen {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #d7dee6;
+  border-radius: 4px;
+}
+
+.lineas-texto {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.linea {
+  height: 8px;
+  background-color: #d7dee6;
+  border-radius: 2px;
+}
+
+.linea.corta {
+  width: 60%;
+}
